@@ -1,0 +1,23 @@
+#secondary-screen-location-header {
+  margin-left: 20px;
+}
+
+#secondary-screen-x-label {
+  margin-left: 20px;
+}
+
+#submit-message {
+  color: green;
+  margin-left: 20px;
+}
+
+#error-message {
+  color: red;
+  margin-left: 20px;
+}
+
+#submit-button {
+  margin-left: 20px;
+  width: 10%;
+  text-align: center;
+}

@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+
+  "name": "Tab Splitter",
+  "description": "Splits tabs into seperate windows.",
+  "version": "1.0",
+  "developer": {
+    "name": "Stone Hobbs"
+  },
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "tabSplitter@stonehobbs.com",
+      "strict_min_version": "42.0"
+    }
+  },
+
+  "icons": {
+    "48": "icons/tab_splitter_icon.svg"
+  },
+
+  "permissions": ["storage", "menus", "tabs"],
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "options_ui": {
+    "page": "options/options.html"
+  }
+}
